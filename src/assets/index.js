@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import node from "./company/node.jpg";
+import reactImg from "./company/react.svg.png";
+import webImg from "./company/web.jpg";
 
 export {
   logoAdobe,
@@ -36,9 +39,12 @@ export {
   creator,
   mobile,
   web,
+  webImg,
+  reactImg,
   github,
   menu,
   close,
+  node,
   css,
   docker,
   figma,

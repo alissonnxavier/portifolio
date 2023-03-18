@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants/index';
 import { logoAdobe, menu, close } from '../assets';
+import studentImg from '../../public/pn.png';
 
 const Navbar = () => {
 
@@ -11,7 +12,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-zinc-900`}>
       <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
         <Link
           to={'/'}
@@ -21,9 +22,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logoAdobe} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={studentImg} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'> Alisson &nbsp;
-            <span className='sm:block hidden'> Dev Js
+            <span className='sm:block hidden'> DevJs
             </span>
           </p>
         </Link >
