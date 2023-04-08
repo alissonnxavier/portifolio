@@ -5,6 +5,10 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
 
+  var keyOpen = '{';
+  var keyClose = '}';
+  var parentheses = '() => ';
+  
   return (
     <section className='relative w-full h-screen mt-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w7x1 mx-auto flex 
@@ -19,20 +23,24 @@ const Hero = () => {
             Ola meu nome é <span className="text-rose-400"> Alisson </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Sou desenvolvedor Full stack<br className="sm:block hidden" /> com foco no desenvolvimento de sites e sistemas web contendo objetos 3D
+            Sou desenvolvedor Full stack {parentheses} <span className='text-lime-500'>{keyOpen} </span><br className="sm:block hidden" />
+            <span className='mx-8'>
+              focado no desenvolvimento de sites e sistemas web com objetos 3D
+            </span><br></br>
+            <span className='text-lime-500'>{keyClose} </span>
           </p>
         </div>
 
       </div>
-            
-      <ComputersCanvas/>
+
+      <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
-                y: [0,24,0]
+                y: [0, 24, 0]
               }}
               transition={{
                 duration: 1.5,
@@ -46,7 +54,7 @@ const Hero = () => {
       </div>
     </section>
 
-    
+
   )
 }
 

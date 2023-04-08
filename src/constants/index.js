@@ -31,11 +31,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
@@ -124,7 +124,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Desenvolver e manter aplicações web usando NodeJs, React.js e outras tecnologias relacionadas.",
+      "Desenvolvendo e mantendo aplicações web usando NodeJs, React.js, MongoDb, Firebase, MySql, JavaScript, TypeScript, Docker, tailwindcss, Three.Js e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
       "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
     ],
@@ -138,7 +138,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "",
     points: [
-      "Desenvolver e manter aplicações web usando React.js e outras tecnologias relacionadas.",
+      "Desenvolvendo e mantendo aplicações web usando React.js e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
       "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
 
@@ -151,7 +151,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Desenvolver e manter aplicações web usando React Native e outras tecnologias relacionadas.",
+      "Desenvolvendo e mantendo aplicações web usando React Native e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
       "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
     ],
@@ -163,7 +163,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Desenvolver e manter aplicações web usando React.js e outras tecnologias relacionadas.",
+      "Desenvolvendo e mantendo aplicações web usando HTML, CSS, JAVASCRIPT e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
       "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
     ],
