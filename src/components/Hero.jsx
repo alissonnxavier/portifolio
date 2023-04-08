@@ -25,7 +25,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Sou desenvolvedor Full stack {parentheses} <span className='text-lime-500'>{keyOpen} </span><br className="sm:block hidden" />
             <span className='mx-8'>
-              focado no desenvolvimento de sites e sistemas web com objetos 3D
+               sites e sistemas web com objetos 3D
             </span><br></br>
             <span className='text-lime-500'>{keyClose} </span>
           </p>
