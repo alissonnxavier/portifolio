@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection{
+  background-color: #5c3dd9;
+  color: #49eb3a;
+}
+
 * {
   margin: 0;
   padding: 0;
