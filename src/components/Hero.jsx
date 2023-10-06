@@ -24,9 +24,13 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Sou desenvolvedor Full stack {parentheses} <span className='text-lime-500'>{keyOpen} </span><br className="sm:block hidden" />
-            <span className='mx-8'>
-               sites e sistemas web com objetos 3D
+            <div className="flex">
+            <span className='ml-8'>
+              Desenvolvo e mantenho aplicações web usando  JavaScript, TypeScript, 
+              NodeJs, React.js, MongoDb, Firebase, MySql,
+              Docker, tailwindcss, Three.Js e outras tecnologias relacionadas
             </span><br></br>
+            </div>
             <span className='text-lime-500'>{keyClose} </span>
           </p>
         </div>
