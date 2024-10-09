@@ -27,6 +27,7 @@ import {
   threejs,
   webImg,
 } from "../assets";
+import convex from  '../assets/convex.png'
 
 export const navLinks = [
   {
@@ -100,6 +101,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "convex",
+    icon: convex
+  }
 ];
 
 const experiences = [
@@ -111,7 +116,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Desenvolvendo e mantendo aplicações web usando NodeJs, React.js, MongoDb, Firebase, MySql, JavaScript, TypeScript, Docker, tailwindcss, Three.Js e outras tecnologias relacionadas.",
+      "Desenvolvendo e mantendo aplicações web usando NodeJs, React.js Next.js, MongoDb, Convex, MySql, JavaScript, TypeScript, Docker, tailwindcss, Three.Js e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
       "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
     ],
@@ -119,43 +124,18 @@ const experiences = [
 
 
   {
-    title: "Desenvolvimento com React.js ",
+    title: "Desenvolvimento com React.js e Next.js ",
     company_name: " ",
     icon: reactImg,
     iconBg: "#383E56",
     date: "",
     points: [
-      "Desenvolvendo e mantendo aplicações web usando React.js e outras tecnologias relacionadas.",
+      "Desenvolvendo e mantendo aplicações web usando React.js, NextJs e outras tecnologias relacionadas.",
       "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
       "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
 
     ],
   },
-  {
-    title: "Desenvolvimento com React Native ",
-    company_name: "",
-    icon: reactImg,
-    iconBg: "#E6DEDD",
-    date: "",
-    points: [
-      "Desenvolvendo e mantendo aplicações web usando React Native e outras tecnologias relacionadas.",
-      "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
-      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
-    ],
-  },
-  {
-    title: "Desenvolvedor Web",
-    company_name: "",
-    icon: webImg,
-    iconBg: "#E6DEDD",
-    date: "",
-    points: [
-      "Desenvolvendo e mantendo aplicações web usando HTML, CSS, JAVASCRIPT e outras tecnologias relacionadas.",
-      "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
-      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
-    ],
-  },
-
 ];
 
 const testimonials = [

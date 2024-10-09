@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="flex">
             <span className='ml-8'>
               Desenvolvo e mantenho aplicações web usando  JavaScript, TypeScript, 
-              NodeJs, React.js, MongoDb, Firebase, MySql,
+              NodeJs, React.js, Next.js, MongoDb, Convex, MySql,
               Docker, tailwindcss, Three.Js e outras tecnologias relacionadas
             </span><br></br>
             </div>
